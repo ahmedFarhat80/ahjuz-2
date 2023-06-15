@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="254.545" height="80" viewBox="0 0 254.545 80">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 35 39">
+      <image width="35" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAnCAMAAACylgF9AAABKVBMVEUAAADktKb9xZft06LfcKC97MTcaKHcaKHcaKG97MTcaKH/x5a97MTcaKG97MS97MTcaKFg2dy97MT/ypZk09m97MRn3NrbaKG87MRu3ti87MTcaKF139e668XYbKOJssiA4dSK49LKeKq368ammbv/ypac5s297MTcaKHcaKH2z51i29y97MRn0Ni97MT/ypZrzda87MT/ypZr3dlwydTaaaJyx9N1xNHZaqL/ypbfcaB7vs6468WCuMvVbqR64NXScab/ypa16sbcaKGTqcPOdaicob/caKGR5M+o6MnCf62+jrDcaKH/ypaF4tORq8TcaKH/ypa97MT/ypb/ypa97MTcaKHcaKH/ypa97MTcaKH/ypa67MX/ypZc2t297MTcaKH/ypZe2dzqqrJOAAAAXnRSTlMAAsGm73n79uuRVjMQDwwIBfv69/Xt6Obc1dLRysrJu7evraupqKeFdigH9fXv7+3o6OLe3t7a1dXV0czDwcHAurq3t7KyrauqqKilmImFgnxtZ1lMQkI+JiUaGBUOgePaxQAAATtJREFUOMuF1OdawjAUgOFUpS2UIsgQEBQFHLj33nvvrScp938RxrapPg8nyff7/dHTnITcfBFtcBZPag0M9+kUANRmaDylMVCZp3QspTZQKlKVAr/FKuXFelUGCltUriBs8oBKFYgydRr0YEgNtM9DlH9GjGiUhpXfMSOQqJ6UGX4ukYq1JAZqU8J0Z58M3MBuPiSe562/4QYqRUF4zW/UQKkcEd69gRkoVDmJmnUw077s8v7VJAi5YD1/aMEhpJOMMBah7KOBfHOGkwhdt7DZc8eMCbT/if7D3B4TbTj4WUzvCGElJGc6NyjIXZrgZkmQU1e2YytrgRiYkO7q6rIv7Bf5zm/2/wozYRCp2fbJeFpxB4dsLq5cghcQi7HDD+WbcGSKYaTmxLRfNW9Uw+LDqE2DD6Pp1iW6fgBspO7LAFtiLAAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="playstore" transform="translate(-2825 -18057.607)">
+    <rect id="Rectangle_6203" data-name="Rectangle 6203" width="254.545" height="80" rx="8" transform="translate(2825 18057.607)" fill="#fff"/>
+    <g id="Group_88047" data-name="Group 88047" transform="translate(2858.455 18070.693)">
+      <rect id="play-store" width="46.832" height="51.677" transform="translate(0 0.915)" fill="url(#pattern)"/>
+      <text id="Get_It_From_Playstore" data-name="Get It From
+Playstore" transform="translate(79.962 19.914)" fill="#414d60" font-size="11" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Get It From</tspan><tspan font-size="21" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Playstore</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

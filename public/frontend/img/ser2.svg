@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="ser2" transform="translate(7046 -1501)">
+    <g id="Group_88191" data-name="Group 88191">
+      <g id="Rectangle_1970" data-name="Rectangle 1970" transform="translate(-7046 1501)" fill="rgba(251,167,16,0.18)" stroke="#fba710" stroke-width="2" opacity="0.4">
+        <rect width="70" height="70" rx="35" stroke="none"/>
+        <rect x="1" y="1" width="68" height="68" rx="34" fill="none"/>
+      </g>
+      <text id="credit-card" transform="translate(-7011 1545)" fill="#fba710" font-size="24" font-family="FontAwesome5Pro-Regular, 'Font Awesome \35  Pro'"><tspan x="-13.5" y="0">credit-card</tspan></text>
+    </g>
+  </g>
+</svg>

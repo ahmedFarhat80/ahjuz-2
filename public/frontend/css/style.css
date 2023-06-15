@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+:root {
+    --main-color: #0984B4;
+    --secondray-color: #FBA710;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    padding: 0.85rem 0;
+    z-index: 1000000000000000000000000;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.navbar .d-flex .navbar-nav .nav-item a.nav-link {
+    padding: 12px 24px;
+    border: 2px solid var(--main-color);
+    border-radius: 100px;
+}
+
+.swal2-container.swal2-rtl.swal2-top-end.swal2-backdrop-show {
+    z-index: 9999999999999999999999999999999999999999999999999999;
+}
+
+/* End Navbar */
+
+
+/* Start Hero */
+
+.hero {
+    background-image: url(../img/hero-back.png);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+
+/* End Hero */
+
+
+/* Cta */
+
+.cta {
+    top: -100px;
+    padding: 1.7rem !important;
+    border: 1px solid #DEDEDE;
+}
+
+.cta .d-flex.bg-white {
+    border: 1px solid #DEDEDE;
+    border-radius: 4px !important;
+    box-sizing: content-box !important;
+}
+
+.cta .d-flex input {
+    padding: 14px 1px !important;
+    border: none !important;
+    border-left: 1px solid #DEDEDE !important;
+}
+
+.cta .d-flex select {
+    padding: 14px 1px !important;
+    border: none !important;
+    border-left: 1px solid #DEDEDE !important;
+}
+
+.cta .d-flex a {
+    padding: 14px 1px !important;
+    border: none !important;
+    border-left: 1px solid #DEDEDE !important;
+}
+
+.cta .d-flex input:first-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.cta .d-flex select {
+    border-radius: 0 4px 4px 0;
+}
+
+.cta .d-flex a {
+    border-radius: 4px 0 0 4px !important;
+    font-weight: 600;
+    border-left: none !important;
+}
+
+.cta .select-city,
+.cta .select-type {
+    top: 60px;
+    z-index: 100000;
+    width: 30%;
+    height: 222px;
+    overflow-y: scroll !important;
+}
+
+.cta .select-city button,
+.cta .select-type button {
+    width: 100%;
+    box-shadow: none !important;
+    text-align: right;
+    padding: 11 0px !important;
+    margin: 4px 0 !important;
+    border-radius: none !important;
+    display: block;
+}
+
+.cta .select-city button:hover,
+.cta .select-type button:hover {
+    background: #f2f2f2;
+}
+
+
+/* End Cta */
+
+
+/* Start Cities */
+
+.cities h4 {
+    display: inline-block;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondray-color);
+}
+
+
+/* End Cities */
+
+
+/* Start Chalets */
+
+.chalets h4 {
+    display: inline-block;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondray-color);
+}
+
+.chalets .col-6 a {
+    text-decoration: none !important;
+}
+
+.chalet-item {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 12%);
+}
+
+.chalet-item .img {
+    width: 40%;
+    border-radius: 0 !important;
+}
+
+.chalet-item .img img {
+    height: 225px;
+    object-fit: cover;
+}
+
+.chalet-item .content h5 {
+    font-weight: 600;
+}
+
+.carousel-indicators {
+    margin-bottom: 6px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 8px !important;
+    height: 8px !important;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+    border-radius: 100% !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/left.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: #fff;
+    background-image: url("../img/right.svg");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+
+/* End Chalets */
+
+
+/* Start Features */
+
+h4.title {
+    display: inline-block;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondray-color);
+}
+
+
+/* End Features */
+
+
+/* Footer */
+
+footer {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+footer h5 {
+    border-bottom: 3px solid var(--main-color) !important;
+    padding-bottom: 11px !important;
+    display: inline-block;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.bottombar {
+    background-color: var(--main-color);
+    padding: 14px 0px;
+}
+
+.bottombar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottombar a:hover {
+    color: #fff;
+}
+
+
+/* End Footer */
+
+
+/* Classes */
+
+.carousel-control-next-icon:after,
+.carousel-control-prev-icon:after {
+    display: none !important;
+}
+
+.dropdown-menu-end[data-mdb-popper] {
+    left: 6%;
+    right: auto;
+}
+
+.fw-normal {
+    font-weight: 500 !important;
+}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+}
+
+.rounded {
+    border-radius: 8px !important;
+}
+
+.bg-primary {
+    background-color: var(--main-color) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondray-color) !important;
+}
+
+.text-secondary {
+    color: var(--secondray-color) !important;
+}
+
+.text-primary {
+    color: var(--main-color) !important;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-control {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.cta input {
+    font-weight: 500;
+}
+
+.mt-6 {
+    margin-top: 5.2rem !important;
+}
+
+.mb-6 {
+    margin-bottom: 5rem !important;
+}
+
+.pt-6 {
+    padding-top: 5rem !important;
+}
+
+.pb-6 {
+    padding-bottom: 5rem !important;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background: none !important;
+}
+
+.btn-primary {
+    background: var(--main-color) !important;
+    border: none !important;
+}
+
+.btn-secondary {
+    background: var(--secondray-color) !important;
+    border: none !important;
+}
+
+.form-check {
+    padding-left: 0 !important;
+}
+
+.form-check .form-check-input {
+    float: right;
+    margin-left: 6px;
+}
+
+.form-check-input:checked {
+    border-color: var(--main-color) !important;
+}
+
+input[type='radio']:checked:after {
+    background-color: var(--main-color) !important;
+}
+
+.modal-header .btn-close {
+    margin-left: 0 !important;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* End Classes */
+
+
+/* Login Page */
+
+.loginpage {
+    background-image: url('../img/login-back.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* End Loign Page */
+
+
+/* Start Chalet Page */
+
+#chalet .images img {
+    border: 1px solid #fff;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item {
+    overflow: hidden;
+}
+
+.nav-justified .nav-item:first-child {
+    border-top-right-radius: 10px;
+}
+
+.nav-justified .nav-item:last-child {
+    border-top-left-radius: 10px;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+    font-size: 15px;
+    padding: 22px;
+}
+
+.nav-justified .nav-item .nav-link.active {
+    color: var(--main-color) !important;
+    border-color: var(--main-color);
+    border-bottom: 3px solid !important;
+}
+
+.des-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* End Chalet Page */
+
+
+/* Start Search Page */
+
+.col-12 .chalet-item {
+    height: 310px;
+}
+
+.col-12 .chalet-item {
+    height: 310px;
+}
+
+.col-12 .chalet-item .carousel-item img {
+    height: 310px;
+    object-fit: cover;
+}
+
+.col-12 .chalet-item .img {
+    width: 31% !important;
+}
+
+
+/* End Search Page */
+
+
+/* Notifications Page */
+
+.notification-item.new {
+    border: 1px solid rgba(251, 167, 16, 0.45) !important;
+    box-shadow: 0px 3px 10px rgba(251, 167, 16, 0.32) !important;
+}
+
+
+/* End Notifications Page */
+
+
+/* Start Add Chalet Page */
+
+.stepper .stepper-item {
+    background-color: #000;
+    width: 47px;
+    height: 47px;
+    align-items: center;
+    text-align: center !important;
+    border-radius: 50%;
+    display: flex;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:500px) {
+    #chalet .images .w-50 {
+        width: 100% !important;
+    }
+    .book-box .form-check.form-check-inline {
+        width: 48%;
+        margin: 0 !important;
+        margin-bottom: 6px !important;
+    }
+    .hero {
+        height: auto !important;
+        padding-bottom: 40px;
+    }
+    .hero .hero-text {
+        margin-top: 100px !important;
+        margin-bottom: 40px !important;
+        text-align: center !important;
+    }
+    .col-12 .chalet-item .img {
+        min-width: 158px !important;
+    }
+    .download .col-md-5.col-12 {
+        text-align: center !important;
+    }
+    .download .mb-6 a img {
+        margin-bottom: 20px !important;
+    }
+    .filters-box {
+        margin-bottom: 22px;
+    }
+    .chalet-item .content {
+        padding-top: 8px !important;
+        padding-bottom: 0px !important;
+    }
+    #countrycode {
+        width: 16% !important;
+    }
+}
+
+.modal {
+    z-index: 10000000000 !important;
+    margin-top: 70px;
+}
+
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.radio-toolbar label {
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+    padding-top: 19px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 220px;
+    font-size: 16px;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 6px;
+}
+.radio-toolbar img {
+    display: block;
+    margin-bottom: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 41px;
+}
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #cbe5f0;
+    border-color: var(--main-color);
+}
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px solid var( --main-color);
+}
